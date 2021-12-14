@@ -77,10 +77,18 @@ struct OmnipodInteractor {
             //2021-12-13 19:37:07.937 17874-18021/info.nightscout.androidaps D/PUMPBTCOMM: [RxCachedThreadScheduler-25]: [BleIO.sendAndConfirmPacket():59]: BleIO: Sending on DATA: 02072989314008030e0100008a00000000000000
             try await peripheral.writeHex("02072989314008030e0100008a00000000000000", characteristic: dataCharacteristic, writeType: .withResponse)
             
+            
+            
+            
+            
             //2021-12-13 19:37:08.003 17874-18021/info.nightscout.androidaps D/PUMPBTCOMM: [RxCachedThreadScheduler-25]: [BleIO.sendAndConfirmPacket():59]: BleIO: Sending on CMD: 00
             let _ = try await peripheral.readCommand(characteristic: commandCharacteristic)
             try await peripheral.writeCommand(PodCommand.rtsCommand(), characteristic: commandCharacteristic, writeType: .withResponse)
             let _ = try await peripheral.readCommand(characteristic: commandCharacteristic)
+            
+            
+            
+            
             
             //2021-12-13 19:37:08.090 17874-18021/info.nightscout.androidaps D/PUMPBTCOMM: [RxCachedThreadScheduler-25]: [BleIO.sendAndConfirmPacket():59]: BleIO: Sending on DATA: 000354571003020006e000001092fffffffe5350
             try await peripheral.writeHex("000354571003020006e000001092fffffffe5350", characteristic: dataCharacteristic, writeType: .withResponse)
