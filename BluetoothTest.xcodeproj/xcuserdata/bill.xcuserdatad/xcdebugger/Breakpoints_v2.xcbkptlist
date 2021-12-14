@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BE9A315D-2E5A-4508-B1CE-874772690EEB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BluetoothTest/OmniPodInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "run()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - e52e17058c09ff71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "376">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - 2e6d6e1c2c9a4a72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - 830fbd80a734b4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - 7d7f72b6aac5964e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "928">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - a6bbc98dcb57fd4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "2144">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - ebc641646b284848"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(8) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - 5f02d8728bba9749"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - a4dfd7fa98d2e7a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "460">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - 9222f6efb92732a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - 4929151d563999bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(12) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "500">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - 243c3402770be4bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(13) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "504">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - 13035b37141c33be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(14) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "504">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - ce167a24356e9ebf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(15) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "448">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - a51a9949d260e5b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(16) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - 9061b87ef37530b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(17) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - 4f74df6390479fba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(18) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "504">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - 3a7bfd90b159eabb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(19) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "508">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - 8703ebcea79a4da3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(20) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "508">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - 72160afc44ec98bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(21) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "508">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - 291d29e165fee7bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(22) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "508">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - 460481602f332be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(23) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "448">
+               </Location>
+               <Location
+                  uuid = "3DD5F23C-8BAB-4061-8EFD-E7A64D56A0D8 - f3776f3b23c599bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(24) await resume partial function for BluetoothTest.OmnipodInteractor.run() async -&gt; ()"
+                  moduleName = "BluetoothTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bill/dev/personal/loop/omnipod/BluetoothTest/BluetoothTest/OmniPodInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "560">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
