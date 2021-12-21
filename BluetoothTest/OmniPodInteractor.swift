@@ -128,6 +128,25 @@ struct OmnipodInteractor {
             try await peripheral.writeHex("0202e3fac698002c000000000000000000000000", characteristic: dataCharacteristic, writeType: .withResponse)
 
             
+            
+            let _ = try await peripheral.readCommand(characteristic: commandCharacteristic)
+            try await peripheral.writeCommand(PodCommand.rtsCommand(), characteristic: commandCharacteristic, writeType: .withResponse)
+            let _ = try await peripheral.readCommand(characteristic: commandCharacteristic)
+            
+            
+            
+            
+            
+            //2021-12-13 19:37:08.090 17874-18021/info.nightscout.androidaps D/PUMPBTCOMM: [RxCachedThreadScheduler-25]: [BleIO.sendAndConfirmPacket():59]: BleIO: Sending on DATA: 000354571003020006e000001092fffffffe5350
+            try await peripheral.writeHex("000154571003040000e000001092fffffffe5350", characteristic: dataCharacteristic, writeType: .withResponse)
+            
+            //2021-12-13 19:37:08.133 17874-18021/info.nightscout.androidaps D/PUMPBTCOMM: [RxCachedThreadScheduler-25]: [BleIO.sendAndConfirmPacket():59]: BleIO: Sending on DATA: 0153313d00301ac74b2b6da0ef53b2029309bade
+            try await peripheral.writeHex("0105c84d2e6e302c475030000000000000000000", characteristic: dataCharacteristic, writeType: .withResponse)
+            
+            
+            
+            
+            
         } catch {
             print("Error \(error)")
         }
