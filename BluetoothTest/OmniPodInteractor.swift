@@ -94,29 +94,39 @@ struct OmnipodInteractor {
             try await peripheral.writeHex("000354571003020006e000001092fffffffe5350", characteristic: dataCharacteristic, writeType: .withResponse)
             
             //2021-12-13 19:37:08.133 17874-18021/info.nightscout.androidaps D/PUMPBTCOMM: [RxCachedThreadScheduler-25]: [BleIO.sendAndConfirmPacket():59]: BleIO: Sending on DATA: 0153313d00301ac74b2b6da0ef53b2029309bade
-            try await peripheral.writeHex("0153313d00301ac74b2b6da0ef53b2029309bade", characteristic: dataCharacteristic, writeType: .withResponse)
+            try await peripheral.writeHex("0153313d0030f2b6940243aba536a66e19fb9a39", characteristic: dataCharacteristic, writeType: .withResponse)
             
             //2021-12-13 19:37:08.174 17874-18021/info.nightscout.androidaps D/PUMPBTCOMM: [RxCachedThreadScheduler-25]: [BleIO.sendAndConfirmPacket():59]: BleIO: Sending on DATA: 02602c83ea43adb68ff8914286e9a3d9a6fb70d8
-            try await peripheral.writeHex("02602c83ea43adb68ff8914286e9a3d9a6fb70d8", characteristic: dataCharacteristic, writeType: .withResponse)
+            try await peripheral.writeHex("02e37f1e76a1cd50ab59b3e05313b4fc93975eed", characteristic: dataCharacteristic, writeType: .withResponse)
 
             //2021-12-13 19:37:08.211 17874-18021/info.nightscout.androidaps D/PUMPBTCOMM: [RxCachedThreadScheduler-25]: [BleIO.sendAndConfirmPacket():59]: BleIO: Sending on DATA: 030f91464c72977e0c3f0473a0b3aeb1ab577d15
-            try await peripheral.writeHex("030f91464c72977e0c3f0473a0b3aeb1ab577d15", characteristic: dataCharacteristic, writeType: .withResponse)
+            try await peripheral.writeHex("030f26df12fdfdacb242c7f4e1d2bc4d93ca3c57", characteristic: dataCharacteristic, writeType: .withResponse)
             
             //2021-12-13 19:37:08.253 17874-18021/info.nightscout.androidaps D/PUMPBTCOMM: [RxCachedThreadScheduler-25]: [BleIO.sendAndConfirmPacket():59]: BleIO: Sending on DATA: 0401830000000000000000000000000000000000
-            try await peripheral.writeHex("0401830000000000000000000000000000000000", characteristic: dataCharacteristic, writeType: .withResponse)
+            try await peripheral.writeHex("0401060000000000000000000000000000000000", characteristic: dataCharacteristic, writeType: .withResponse)
             
             
-            /*
-             .withoutResponse: Peripheral will not write the reponse to the characteristic afterwards.
-             .withResponse: Peripheral will write the resposne to the characteristic afterwards.
-             */
-           
-//            let _ = try await peripheral.readCommand(characteristic: commandCharacteristic)
-//            let _ = try await peripheral.readCommand(characteristic: commandCharacteristic)
-//            let _ = try await peripheral.readCommand(characteristic: commandCharacteristic)
-//
+
+            
+            
             
             let _ = try await peripheral.readCommand(characteristic: commandCharacteristic)
+            try await peripheral.writeCommand(PodCommand.rtsCommand(), characteristic: commandCharacteristic, writeType: .withResponse)
+            let _ = try await peripheral.readCommand(characteristic: commandCharacteristic)
+            
+            
+            
+            
+            
+            //2021-12-13 19:37:08.090 17874-18021/info.nightscout.androidaps D/PUMPBTCOMM: [RxCachedThreadScheduler-25]: [BleIO.sendAndConfirmPacket():59]: BleIO: Sending on DATA: 000354571003020006e000001092fffffffe5350
+            try await peripheral.writeHex("000254571003030002e000001092fffffffe5350", characteristic: dataCharacteristic, writeType: .withResponse)
+            
+            //2021-12-13 19:37:08.133 17874-18021/info.nightscout.androidaps D/PUMPBTCOMM: [RxCachedThreadScheduler-25]: [BleIO.sendAndConfirmPacket():59]: BleIO: Sending on DATA: 0153313d00301ac74b2b6da0ef53b2029309bade
+            try await peripheral.writeHex("0153323d0010024226f6c283d8a2e5df071b1844", characteristic: dataCharacteristic, writeType: .withResponse)
+            
+            //2021-12-13 19:37:08.174 17874-18021/info.nightscout.androidaps D/PUMPBTCOMM: [RxCachedThreadScheduler-25]: [BleIO.sendAndConfirmPacket():59]: BleIO: Sending on DATA: 02602c83ea43adb68ff8914286e9a3d9a6fb70d8
+            try await peripheral.writeHex("0202e3fac698002c000000000000000000000000", characteristic: dataCharacteristic, writeType: .withResponse)
+
             
         } catch {
             print("Error \(error)")
